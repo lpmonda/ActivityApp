@@ -1,4 +1,4 @@
-﻿namespace AspNetcoreLearning.Dto
+﻿namespace AspNetcore1.Dto
 {
     /* public record class Dto(
      string Name,
@@ -10,4 +10,12 @@
    public record class Dto(   
    int heartbeat     
     );
+
+    public record class MFC(
+        int MFCId,
+        string Name,
+        int Setpoint,
+        int Measure,
+        string GasId
+      );
 }
